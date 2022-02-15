@@ -1,0 +1,10 @@
+[package]
+name = "rusty-lihzahrd"
+version = "0.1.0"
+edition = "2021"
+
+
+[dependencies]
+serde = { version = "1.0.136", features = ["derive"] }
+serde-altar = "0.4.0"
+serde-big-array = { version = "0.3.2", features = ["const-generics"] }
